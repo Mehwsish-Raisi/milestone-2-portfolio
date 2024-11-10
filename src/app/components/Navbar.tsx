@@ -18,10 +18,10 @@ const Navbar = () => {
     
     <nav className="ml-auto flex flex-wrap items-center h-14 justify-center w-full sm:w-auto ">
     <ul className='flex space-x-6'>
-            <li className='hover:text-orange-900 menuLink'><Link href="/">Home</Link></li>
-            <li className='hover:text-orange-900 menuLink'><Link href="#about">About</Link></li>
-            <li className='hover:text-orange-900 menuLink'><Link href="#contact">Contact</Link></li>
-           <li className='hover:text-orange-900 menuLink'><Link href="#projects">Projects</Link></li>
+            <li className='hover:text-orange-900'><Link href="/">Home</Link></li>
+            <li className='hover:text-orange-900'><Link href="#about">About</Link></li>
+            <li className='hover:text-orange-900'><Link href="#contact">Contact</Link></li>
+           <li className='hover:text-orange-900'><Link href="#projects">Projects</Link></li>
          </ul>
          
     </nav>
